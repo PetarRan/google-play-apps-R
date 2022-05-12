@@ -1,6 +1,6 @@
 # Top Apps on Google Play Market
 
-Open in easy-to-read HTML: [HTML View](https://google-playstore-a0be9d.netlify.app/html_view.html)
+### Open in easy-to-read HTML: [Website](https://google-playstore-a0be9d.netlify.app/html_view.html)
 
 ## Introduction
 
