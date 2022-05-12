@@ -1,5 +1,7 @@
 # Top Apps on Google Play Market
 
+Open in easy-to-read HTML: [HTML View](https://google-playstore-a0be9d.netlify.app/html_view.html)
+
 ## Introduction
 
 In this document we will focus on most popular Apps on the Google Play
@@ -31,8 +33,6 @@ by Google:
 # Reason Behind the popularity
 
 ## What affects the position of the app on the App Store and Google Play?
-
-Relevance bytop 5 Categories
 
 ![](HW4_files/figure-markdown_github/appsByCategory-1.png)
 
