@@ -1,2 +1,167 @@
-# google-play-apps-R
-Top apps on Google Play as of today and the reasons behind it.
+# Top Apps on Google Play Market
+
+## Introduction
+
+In this document we will focus on most popular Apps on the Google Play
+store for android devices. Why are they downloaded the most and to which
+category do these apps belog to?
+
+Research done on this topic is mostly helped by the open source datasets
+on the internet and the availability of data on such matters.
+
+All of the data used in this topic can be found in the **Reference**
+section.
+
+In total there were 70 apps in the *Most Popular Apps* list.
+
+## Currently the most Popular
+
+Applications that save users time and money are the most popular because
+users find that they would be lost without the assistance the app is
+providing. When a user is able to see the value in an application and is
+thankful that they are able to incorporate it, then the app will be
+successful.
+
+Although many apps that are at a current top of the list on Google Play
+Store are developed by different developers, many of them are developed
+by Google:
+
+![](HW4_files/figure-markdown_github/apps-1.png)
+
+# Reason Behind the popularity
+
+## What affects the position of the app on the App Store and Google Play?
+
+Relevance bytop 5 Categories
+
+![](HW4_files/figure-markdown_github/appsByCategory-1.png)
+
+### 1. Title
+
+As far as apps’ titles are concerned, Google Play and App Store allow 30
+characters, both index them. These are the most important metadata and
+of prime importance to a search algorithm.
+
+### 2. Subtitle
+
+-   There are no subtitles in *Google Play*, but App Store has got them
+-   on the app’s page and its search card. Up to 30 characters are
+    allowed;
+-   latest research shows that subtitles are less indexed but still
+    visible
+-   they have more influence on rankings than the keyword field.
+
+### 3. Keyword field
+
+Only App Store features a keyword field. It can accommodate up to 100
+characters, counting commas between words, and the contents are indexed.
+
+### 4. Promo text / Short description
+
+The promo text a. k. a. short description can fit 80 characters in
+Google Play, this text is indexed. App Store’s holds up to 170
+characters, but the contents are not indexed, on the other hand, it can
+be changed any time, without commitment to an update. You might, for
+example, announce a 50% discount for today’s special event. In App Store
+only the promo text among all the metadata may be changed outside of an
+update. In Google Play you can rewrite all of them any time.
+
+### 5. Description
+
+The maximum size of a description is 4000 characters in App Store and
+Google Play alike, but Google’s are indexed. Also Google Play tolerates
+emoji there and html formatting. These features help users hone in on
+the app. Artyom Tkaczuk covered composing descriptions for Google Play
+in the previous article of this series.
+
+### 6. Reviews and relevance
+
+Reviews are also not indexed in App Store, and indexed in Google Play.
+For this reason, <span style="color:red">keywords</span> can be entered
+directly into reviews for some extra indexing, just not in every
+sentence – users should be able to get to the meaning. This was another
+topic for Artyom Tkaczuk in his piece.
+
+Micro transactions (In-App Purchases) and Ad-based apps also make a
+difference in relevancy.
+
+$$ \\dfrac{Part}{Whole(71)} \\ = \\dfrac{Percentage}{100} $$
+
+We will use a simple percentage equation to get stats on different
+variables determining success on the App market.
+
+    ## [1] "Percentage of apps without ads 71.83%"
+
+    ## [1] "Percentage of apps with ads 26.76%"
+
+    ## [1] "Percentage of apps without microtransanctions 77.46%"
+
+    ## [1] "Percentage of apps with microtransactions 21.13%"
+
+### 7. Extra localizations
+
+Only App Store has main and extra localizations for a country. This
+means that users will get to see different pages of the app with
+different metadata, appropriate for his device’s language settings, and
+developers can count on App Store search engine’s grabbing indexed data
+from those additional localizations.
+
+This table shows what localizations may be added to increase the
+quantity of available keywords:
+
+![](https://lh5.googleusercontent.com/fJL59FlsuV8wlnj_Rr6y34WJAjCfQmEqSBOa2tYhIHqEcXR53XU5WBaONq4Nb1exdwT7OersEwiP6gLyHd8MI7t-hruHrjRsKciz5cpvS68S1E6kCWVYRF1OEM94vPgZah5HUcg)
+
+### 8. No. of search screenshots
+
+Google Play has something called cluster searching, which means that
+several blocks with Google-recommended software will be interposed
+between the first and second app. Only cluster results display app
+screenshots. Screenshots are presented in a uniform manner in App Store:
+always three portrait screenshots or one landscape screenshot or one
+video and two screenshots.
+
+### 9. Search Results
+
+In Google Play a search produces different results pages depending on
+the query. Typing in something specific like “traffic tickets pay
+download” or a brand name like “Uber” will cause the relevant app with
+the highest number of downloads to appear on the top in a large card
+(for cluster results). The algorithm must be certain that the app does
+the best job at meeting users’ needs and solving their problems. For
+more general queries like “plane tickets” results will be more familiar:
+different apps listed, internal purchases for them, developer pages,
+Apple Search Ads, bundles, editorial pieces in a roster. I wrote about
+the importance of editorials in my last article.
+
+### 10. Attributes of in-built purchases
+
+Up to 20 in-built purchases (subscription, services, new game levels
+etc.) may be added to an App Store search, and each has a title, an icon
+and a description. In-built purchases make apps take up more screen
+space, which may improve conversion. Google Play does not have an
+equivalent feature.
+
+*Ranking determinants that really determine*
+
+| Factor                | Google Play    | App Store      |
+|-----------------------|----------------|----------------|
+| General install       | Applies        | Applies        |
+| Revenue               | Applies        | Applies        |
+| Number of Sessions    | Applies        | Applies        |
+| Sessions frequency    | Applies        | Does not apply |
+| Number of reviews     | Applies        | Applies        |
+| Rating                | Applies        | Applies        |
+| Search query Installs | Applies        | Applies        |
+| Recently updated      | Does not apply | Applies        |
+| App Uninstallation    | Applies        | Does not apply |
+
+# Refrences
+
+-   [Datasets
+    Used](https://www.kaggle.com/datasets/alexandrparkhomenko/top-apps-in-google-play?resource=download)
+
+-   [Article by
+    ASODESK](https://asodesk.com/blog/what-determines-an-apps-position-in-app-store-and-google-play/)
+
+-   [What Makes Apps
+    Successful](https://theappsolutions.com/blog/marketing/make-apps-popular/)
